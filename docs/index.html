@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Üniversite Tavlası</title>
+  <meta name="description" content="Tavla artık takım oyunu: 2'ye 2, iki tahta, tek skor. Windows için ücretsiz indir.">
+  <meta property="og:title" content="Üniversite Tavlası artık Windows'ta">
+  <meta property="og:description" content="2'ye 2 takım tavlası · iki tahta · tek skor. Ücretsiz indir.">
+  <meta property="og:image" content="assets/duyuru.png">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg: #1b110c; --card: #2a1c12; --line: #4a3826; --gold: #d4af62; --cream: #f3e6d0; --muted: #b7a894; --wine: #7a1e2c; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--cream); font-family: Inter, "Segoe UI", sans-serif; line-height: 1.6; }
+    a { color: var(--gold); }
+    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+    header { background: radial-gradient(ellipse 80% 70% at 30% 20%, #4a2c1a 0%, var(--bg) 70%); padding: 56px 0 40px; }
+    .hero { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center; }
+    .logo { width: 96px; height: 96px; }
+    .kicker { color: var(--gold); font-weight: 700; letter-spacing: .08em; font-size: 14px; margin: 18px 0 6px; }
+    h1 { font-family: "Playfair Display", Georgia, serif; font-weight: 900; font-size: clamp(40px, 6vw, 64px); line-height: 1.05; margin: 0 0 16px; }
+    .lead { color: var(--muted); font-size: 18px; margin: 0 0 26px; }
+    .btn { display: inline-block; background: var(--wine); color: var(--cream); text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 999px; border: 2px solid var(--gold); }
+    .btn:hover { filter: brightness(1.15); }
+    .note { color: var(--muted); font-size: 13px; margin-top: 12px; }
+    .shot { width: 100%; border-radius: 16px; border: 2px solid var(--gold); box-shadow: 0 30px 60px rgba(0,0,0,.55); display: block; }
+    section { padding: 56px 0; }
+    h2 { font-family: "Playfair Display", Georgia, serif; font-size: 34px; margin: 0 0 20px; color: var(--gold); }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+    .card b { display: block; color: var(--cream); font-size: 17px; margin-bottom: 6px; }
+    .card span { color: var(--muted); font-size: 15px; }
+    .gallery img { margin-bottom: 22px; }
+    ol { padding-left: 22px; } li { margin-bottom: 8px; }
+    footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; padding: 28px 0 40px; text-align: center; }
+    @media (max-width: 860px) { .hero { grid-template-columns: 1fr; } .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hero">
+      <div>
+        <img class="logo" src="assets/logo.png" alt="">
+        <div class="kicker">BİLGİSAYAR SÜRÜMÜ · WINDOWS</div>
+        <h1>Tavla artık takım oyunu.</h1>
+        <p class="lead">Üniversite Tavlası: 2'ye 2, iki tahta, tek skor. Arkadaşınla aynı takımda oyna, iki tahtadaki puanlarınız birleşsin.</p>
+        <a class="btn" href="https://github.com/unalbey10/universite-tavlasi/releases/latest">⬇ Ücretsiz indir</a>
+        <div class="note">Windows 10 / 11 · 64 bit · Telefondaki hesabınla giriş yapabilirsin</div>
+      </div>
+      <img class="shot" src="assets/oyun.jpg" alt="Maç ekranı: iki tahta ve ortak zar">
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <h2>Neler var?</h2>
+      <div class="grid">
+        <div class="card"><b>2'ye 2 takım tavlası</b><span>Dört oyuncu, iki takım. Her takımın bir oyuncusu bir tahtada; zar ortak.</span></div>
+        <div class="card"><b>İki tahta, tek skor</b><span>Her elin puanı takımın hanesine yazılır. İlk 10 puana ulaşan kazanır.</span></div>
+        <div class="card"><b>Klasik tavla</b><span>Bire bir, tek tahtada geleneksel tavla da oynayabilirsin.</span></div>
+        <div class="card"><b>Botlar</b><span>Kolay, Normal ve Zor botlarla istediğin zaman antrenman yap.</span></div>
+        <div class="card"><b>Çevrimiçi ve LAN</b><span>Arkadaşlarını masaya davet et, dereceli oyna ya da aynı ağda internetsiz oynayın.</span></div>
+        <div class="card"><b>Temalar</b><span>Türkiye, Penguen, Pamuk Şeker, Matrix ve daha fazla tahta teması.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap gallery">
+      <h2>Ekranlar</h2>
+      <img class="shot" src="assets/menu.jpg" alt="Ana menü">
+      <img class="shot" src="assets/temalar.jpg" alt="Tahta temaları">
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <h2>Kurulum</h2>
+      <ol>
+        <li><a href="https://github.com/unalbey10/universite-tavlasi/releases/latest">Son sürüm</a> sayfasından <code>UniversiteTavlasi-Setup</code> dosyasını indir.</li>
+        <li>Dosyayı çalıştır ve kurulum adımlarını izle.</li>
+        <li>Windows "Bilgisayarınız korundu" uyarısı verirse <b>Ek bilgi → Yine de çalıştır</b>'a bas. Uygulama henüz dijital imzalı olmadığı için bu uyarı çıkıyor.</li>
+      </ol>
+      <a class="btn" href="https://github.com/unalbey10/universite-tavlasi/releases/latest">⬇ Ücretsiz indir</a>
+    </div>
+  </section>
+
+  <footer>© BASGAMES · Üniversite Tavlası · <a href="https://github.com/unalbey10/universite-tavlasi">GitHub</a></footer>
+</body>
+</html>
