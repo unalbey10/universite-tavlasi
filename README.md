@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/unalbey10/universite-tavlasi/releases/latest"><b>⬇ Windows için ücretsiz indir</b></a>
   &nbsp;·&nbsp;
-  <a href="https://unalbey10.github.io/universite-tavlasi/">Tanıtım sayfası</a>
+  <a href="https://unitavla.com/">unitavla.com</a>
 </p>
 
 ---
